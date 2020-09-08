@@ -30,7 +30,7 @@
 <div class="form-group">
    <h5 style="font-weight: bold;color: #000;font-style: italic;"><label for="category_id">Category * : </label></h5>
    <select name="category_id" id="category_id" class="form-control">
-   <option value=""><-----------------------------------------Select Catégory-------------------------------------></option>
+   <option value=""><--------------------------------------Select Catégory-------------------------------------></option>
        @foreach($categories as $key => $category)
         <option value="{{ $key }}">{{ $category }}</option>
         @endforeach
